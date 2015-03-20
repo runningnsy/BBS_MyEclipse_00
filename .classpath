@@ -3,5 +3,27 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/annotations-api.jar" sourcepath="WebContent/WEB-INF/lib/tomcat_src_java.zip"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ecj-4.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jasper.jar" sourcepath="WebContent/WEB-INF/lib/tomcat_src_java.zip"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jsp-api.jar" sourcepath="WebContent/WEB-INF/lib/tomcat_src_java.zip"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat_6.0.36.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

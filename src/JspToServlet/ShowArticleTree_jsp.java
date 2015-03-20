@@ -17,6 +17,11 @@ import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.SkipPageException;
 
+/**
+ * ShowArticleTree.jsp文件在tomcat中编译成Servlet后的源码
+ * @author Administrator
+ *
+ */
 public final class ShowArticleTree_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
