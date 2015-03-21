@@ -25,21 +25,18 @@
 	Connection conn = DriverManager.getConnection(url);
 
 	Statement stmtCount = conn.createStatement();
-	ResultSet rsCount = stmtCount
-			.executeQuery("select count(*) from article where pid = 0");
+	ResultSet rsCount = stmtCount.executeQuery("select count(*) from article where pid = 0");
 	rsCount.next();
 	int totalRecords = rsCount.getInt(1);
 
-	int totalPages = totalRecords % pageSize == 0 ? totalRecords
-			/ pageSize : totalRecords / pageSize + 1;
+	int totalPages = totalRecords % pageSize == 0 ? totalRecords / pageSize : totalRecords / pageSize + 1;
 	if (pageNo > totalPages)
 		pageNo = totalPages;
 
 	int startPos = (pageNo - 1) * pageSize;
 
 	Statement stmt = conn.createStatement();
-	ResultSet rs = stmt
-			.executeQuery("select * from article where pid = 0 order by pdate desc limit "
+	ResultSet rs = stmt.executeQuery("select * from article where pid = 0 order by pdate desc limit "
 			+ startPos + "," + pageSize);
 %>
 

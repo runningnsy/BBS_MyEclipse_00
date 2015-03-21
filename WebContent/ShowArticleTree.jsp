@@ -26,9 +26,9 @@ private void tree(Connection conn, int id, int level) {
 		String strLogin = "";
 		
 		while(rs.next()) {
-			if(login) {
+			//if(login) {
 				strLogin = "<td><a href='Delete.jsp?id=" + rs.getInt("id") + "&pid=" + rs.getInt("pid") + "'>É¾³ý</a>";
-			}
+			//}
 			str += "<tr><td>" + rs.getInt("id") + "</td><td>" +
 			       preStr + "<a href='ShowArticleDetail.jsp?id=" + rs.getInt("id") + "'>" + 
 			       rs.getString("title") + "</a></td>" +
